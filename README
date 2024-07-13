@@ -1,3 +1,9 @@
+steps of installation:
+sudo apt install python3 - to install python
+pip install Flask - to install flask
+pip install Flask-CORS - to install flask cors
+
+
 http://127.0.0.1:5000/transliterate - POST METHOD
 SAMPLE INPUT- 
 {
