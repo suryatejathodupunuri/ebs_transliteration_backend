@@ -12,6 +12,12 @@ def transliterate():
             inp=data['inp']
             transliterate= Transliterator(source=src,target=tar,build_lookup=True)
             out= transliterate.transform(inp)
+            with open("input.txt", "w") as file:
+                     file.write("Input:\n")
+                     file.write(inp + "\n")
+            with open("output.txt", "w") as file:
+                    file.write("Output:\n")
+                    file.write(out+"\n")
             return jsonify({'output':out},{'status':'SUCCESS'}),200
         except KeyError:
             return jsonify({'error': 'Invalid JSON format or missing "text" field'}), 400
