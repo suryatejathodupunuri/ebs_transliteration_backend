@@ -8,7 +8,7 @@ A frontend for this API is available at [EBS Transliteration Frontend](https://g
 ## Installation  
 Follow these steps to set up the EBS Transliteration Backend on your local machine.
 
-1. **Clone and install Indic-Trans:**
+1. **Clone and install [Indic-Trans](https://github.com/libindic/indic-trans.git):**
    - Clone the repository:
      ```bash
      git clone https://github.com/libindic/indic-trans.git
