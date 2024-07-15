@@ -68,4 +68,12 @@ Follow these steps to set up the EBS Transliteration Backend on your local machi
   "tar": "hin",
   "inp": "Mere pyaare desh vasiyo, aaj main aap sabse yah kehna chahta hoon ki hum sabhi ek saath milkar hamare desh ko majboot banayenge. aap sabka sahyog bahumulya hai. Humein milkar pragati ke marg par agrasar hona hai. dhanyavad."
 }
+**Response:**
 
+```json
+{
+    "output": "मेरे प्यारे देश वसियो, आज में आप सबसे यह कहना चाहता हूँ की हम सभी एक साथ मिलकर हमारे देश को मजबूत बनायेंगे. आप सबका सहयोग बहुमुल्य हैं. हमें मिलकर प्रगती के मार्ग पर अग्रसर होना हैं. धन्यवाद."
+  },
+  {
+    "status": "SUCCESS"
+  }
