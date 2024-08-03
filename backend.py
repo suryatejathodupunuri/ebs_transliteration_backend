@@ -3,7 +3,7 @@ from flask import Flask,request,jsonify
 from flask_cors import CORS
 app=Flask(__name__)
 CORS(app)
-@app.route('/transliterate', methods=['POST'])
+@app.route('/api/transliterate', methods=['POST'])
 def transliterate():
         try:
             data=request.get_json()
@@ -23,7 +23,7 @@ def transliterate():
             return jsonify({'error': 'Invalid JSON format or missing "text" field'}), 400
         except Exception as e:
             return jsonify({'error': str(e)}), 500
-@app.route('/test')
+@app.route('/api/test')
 def test():
     return "Backend running successfully."
 if __name__ == '__main__':
