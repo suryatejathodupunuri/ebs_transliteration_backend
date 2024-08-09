@@ -54,7 +54,7 @@ Follow these steps to set up the EBS Transliteration Backend on your local machi
 
 ### Transliterate Text
 
-**Endpoint:** `/transliterate`
+**Endpoint:** `/api/transliterate`
 
 **Method:** `POST`
 
@@ -84,7 +84,7 @@ Follow these steps to set up the EBS Transliteration Backend on your local machi
 
 ### Test Endpoint
 
-**Endpoint:** `/test`
+**Endpoint:** `/api/test`
 
 **Method:** `GET`
 
