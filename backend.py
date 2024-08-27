@@ -11,7 +11,7 @@ def create_connection():
             host="localhost",
             user="root",
             password="sincostan",
-            database="transliteration"
+            database="transliteration_db"
         )
         print("Database connection successful")
     except Error as err:
