@@ -20,10 +20,11 @@ Follow these steps to set up the EBS Transliteration Backend on your local machi
      pip install .
      ```
 
-2. **Download Python and check the version:**
-   - Ensure Python is installed and check the version:
+2. **Download Python, check the version and install mysql-connector-python:**
+   - Ensure Python is installed,check the version and install mysql-connector-python:
      ```bash
      python --version
+     pip install mysql-connector-python
      ```
 
 3. **Download Flask and install Flask-CORS:**
