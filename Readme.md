@@ -44,8 +44,12 @@ Follow these steps to set up the EBS Transliteration Backend on your local machi
      ```bash
      cd ebs_transliteration_backend
      ```
-
-6. **Run the backend code:**
+6. **Change to the cloned directory:**
+   - Navigate into the cloned project directory:
+     ```bash
+     cd ebs_transliteration_backend
+     ```
+7. **Set up the database**
    - Start the backend server:
      ```bash
      python3 backend.py
