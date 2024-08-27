@@ -48,7 +48,11 @@ Follow these steps to set up the EBS Transliteration Backend on your local machi
    - Modify the host,username and password in the code as per the deployed system
    - Create Database transliteration
      ```bash
-     create database transliteration
+     create database transliteration;
+     ```
+   - use transliteration database
+     ```bash
+     use transliteration;
      ```
 7. **Run the backend code:**
    - Start the backend server:
